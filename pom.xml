@@ -23,9 +23,19 @@
             <version>${flink.version}</version>
         </dependency>
         <dependency>
+            <groupId>org.apache.flink</groupId>
+            <artifactId>flink-connector-twitter</artifactId>
+            <version>${flink.version}</version>
+        </dependency>
+        <dependency>
             <groupId>org.apache.kafka</groupId>
             <artifactId>kafka_2.10</artifactId>
             <version>0.8.2.2</version>
+        </dependency>
+        <dependency>
+            <groupId>com.splout.db</groupId>
+            <artifactId>splout-javaclient</artifactId>
+            <version>0.3.0</version>
         </dependency>
     </dependencies>
 
@@ -60,6 +70,6 @@
     </build>
     <properties>
         <version.jdk>1.8</version.jdk>
-        <flink.version>0.10-SNAPSHOT</flink.version>
+        <flink.version>0.10.1</flink.version>
     </properties>
 </project>
